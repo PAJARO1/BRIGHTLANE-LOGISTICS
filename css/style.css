@@ -275,18 +275,28 @@ h6 {
   height: 100%;
 }
 
+#quote {
+  display: none;
+}
+
 @media (max-width: 768px) {
   #dock {
     height: 50%;
     /* or whatever size you want */
   }
 
-
   body .info-info {
     margin-top: 500px;
     /* or whatever size you want */
   }
+
+  #quote {
+    display: inline;
+    background-color: orange;
+  }
 }
+
+
 
 
 
