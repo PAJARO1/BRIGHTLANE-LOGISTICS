@@ -271,6 +271,14 @@ h6 {
   font-weight: 500;
 }
 
+@media (max-width: 768px) {
+  #dock {
+    /* or whatever size you want */
+    height: 50%
+      /* to maintain aspect ratio */
+  }
+}
+
 .main-nav a:hover,
 .main-nav .active>a,
 .main-nav li:hover>a {
