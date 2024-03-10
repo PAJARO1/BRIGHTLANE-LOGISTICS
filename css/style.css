@@ -272,12 +272,18 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  #dock {
+  body #dock {
+    height: 400px;
     /* or whatever size you want */
-    height: 50%
-      /* to maintain aspect ratio */
+  }
+
+  body .info-info {
+    margin-top: 500px;
+    /* or whatever size you want */
   }
 }
+
+
 
 .main-nav a:hover,
 .main-nav .active>a,
