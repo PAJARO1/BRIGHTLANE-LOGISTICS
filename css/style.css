@@ -279,9 +279,10 @@ h6 {
   display: none !important;
 }
 
+
 @media (max-width: 768px) {
   #dock {
-    height: 50%;
+    height: 400px;
     /* or whatever size you want */
   }
 
@@ -294,6 +295,8 @@ h6 {
     display: inline !important;
     background-color: orange;
   }
+
+
 }
 
 
