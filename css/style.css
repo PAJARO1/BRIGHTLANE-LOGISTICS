@@ -271,11 +271,16 @@ h6 {
   font-weight: 500;
 }
 
+#dock {
+  height: 100%;
+}
+
 @media (max-width: 768px) {
-  body #dock {
-    height: 400px;
+  #dock {
+    height: 50%;
     /* or whatever size you want */
   }
+
 
   body .info-info {
     margin-top: 500px;
