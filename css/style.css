@@ -279,6 +279,9 @@ h6 {
   display: none !important;
 }
 
+#ES {
+  display: none !important;
+}
 
 @media (max-width: 768px) {
   #dock {
@@ -295,6 +298,10 @@ h6 {
     display: inline !important;
     background-color: orange;
     padding-bottom: 0;
+  }
+
+  #ES {
+    display: inline !important;
   }
 
 
