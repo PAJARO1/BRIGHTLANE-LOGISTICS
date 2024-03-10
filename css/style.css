@@ -294,6 +294,7 @@ h6 {
   #quote {
     display: inline !important;
     background-color: orange;
+    padding-bottom: 0;
   }
 
 
